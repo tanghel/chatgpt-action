@@ -8,7 +8,7 @@ const core = __nccwpck_require__(2186);
 
 async function createChatGPTAPI(sessionToken) {
   // To use ESM in CommonJS, you can use a dynamic import
-  const { ChatGPTAPI } = await __nccwpck_require__.e(/* import() */ 298).then(__nccwpck_require__.bind(__nccwpck_require__, 3298));
+  const { ChatGPTAPI } = await __nccwpck_require__.e(/* import() */ 97).then(__nccwpck_require__.t.bind(__nccwpck_require__, 5097, 23));
 
   const api = new ChatGPTAPI({ sessionToken });
 
@@ -13706,30 +13706,6 @@ module.exports = require("assert");
 
 /***/ }),
 
-/***/ 7303:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("async_hooks");
-
-/***/ }),
-
-/***/ 4293:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("buffer");
-
-/***/ }),
-
-/***/ 7082:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("console");
-
-/***/ }),
-
 /***/ 6417:
 /***/ ((module) => {
 
@@ -13794,22 +13770,6 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 630:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("perf_hooks");
-
-/***/ }),
-
-/***/ 1765:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("process");
-
-/***/ }),
-
 /***/ 4213:
 /***/ ((module) => {
 
@@ -13818,27 +13778,11 @@ module.exports = require("punycode");
 
 /***/ }),
 
-/***/ 1191:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("querystring");
-
-/***/ }),
-
 /***/ 2413:
 /***/ ((module) => {
 
 "use strict";
 module.exports = require("stream");
-
-/***/ }),
-
-/***/ 4304:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("string_decoder");
 
 /***/ }),
 
@@ -13871,14 +13815,6 @@ module.exports = require("url");
 
 "use strict";
 module.exports = require("util");
-
-/***/ }),
-
-/***/ 5013:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("worker_threads");
 
 /***/ }),
 
